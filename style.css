@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background: #f6f6f6;
+}
+
+
+.container{
+    width: 1140px;
+    margin:0 auto;
+}
+
+a{
+    text-decoration:none;
+}
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+
+/*-----------------------common css close----------------------------------*/ 
+
+/*-----------------------header css start----------------------------------*/ 
+
+header{
+    width: 100%;
+    float: left;
+    padding: 27px 0;
+}
+
+.logo {
+    width: 130px;
+}
+
+
+
+/*-----------------------header css close----------------------------------*/ 
+
+/*-----------------------hero css start----------------------------------*/ 
+
+.hero {
+    width: 100%;
+    float: left;
+    background: url(img/hero.jpg);
+    padding-top: 100px;
+    padding-bottom: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-content {
+    width: 80%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    color: white;
+    font-size: 100px;
+}
+
+.hero-content span {
+    border-bottom: 2px solid #2290D6;
+    display: block;
+    width: 60%;
+    margin: 15px auto;
+}
+
+
+.hero-content p {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 65px;
+}
+
+
+.btn {
+    color: white;
+    background: transparent;
+    border: 2px solid #2290D6;
+    padding: 12px 29px;
+    font-size: 17px;
+    text-align: center;
+    background: linear-gradient(to left, transparent 50%, #2290D6 50%);
+    background-size: 200%;
+    background-position: right;
+    transition: .5s ease;
+    font-weight: 600;
+}
+
+.btn:hover{
+   background-position: left;
+}
+
+.angle-down {
+    display: block;
+    color: white;
+    font-size: 32px;
+    margin-top: 140px;
+    cursor: pointer;
+}
+
+/*-----------------------hero css start----------------------------------*/ 
+
+
+/*-----------------------about css start----------------------------------*/ 
+
+.about{
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+}
+
+
+.about-content {
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+    text-align: center;
+}
+
+.about-content h3 {
+    font-size: 37px;
+    font-weight: 500;
+    margin: 20px 0;
+    color: #2E3A51;
+}
+
+
+.about-content p {
+    font-size: 17px;
+    line-height: 26px;
+    color: #00000038;
+    margin-bottom: 35px;
+    font-weight: 600;
+}
+
+
+
+/*-----------------------about css close----------------------------------*/ 
+
+
+/*-----------------------service css start----------------------------------*/ 
+
+
+.service {
+    width: 100%;
+    float: left;
+    background: white;
+    padding-top: 42px;
+    padding-bottom: 65px;
+}
+
+
+.service-icons{
+
+}
+
+.service-icon {
+    width: 29%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 30px;
+}
+
+.s-icon {
+    background: #48BAFF;
+    color: white;
+    text-align: center;
+    width: 83px;
+    height: 83px;
+    line-height: 83px;
+    margin: 0 auto;
+    font-size: 50px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.s-icon::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: #ffffff99;
+    right: 0;
+    opacity: 0.4;
+}
+
+.fa-mouse-pointer:before {
+    content: "\f245";
+    font-size: 35px;
+}
+
+.fa-microphone:before {
+    content: "\f130";
+    font-size: 38px;
+}
+
+
+.service-text {
+    text-align: center;
+   
+    margin: 0 auto;
+}
+
+.fa.fa-mouse{
+
+}
+
+.service-text h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+
+.service-text p {
+    color: #0000007a;
+    width: 260px;
+    margin: 0 auto;
+}
+
+
+
+/*-----------------------service css close----------------------------------*/ 
+
+
+/*-----------------------project css start----------------------------------*/ 
+
+.project{
+    width: 100%;
+    float: left;
+    padding: 60px 0px;
+}
+
+.project-content {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.project-content h1 {
+    font-size: 35px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+
+.project-content p{
+    font-size: 17px;
+    line-height: 26px;
+    color: #00000075;
+    margin-bottom: 35px;
+}
+
+.project-items{
+    width: 100%;
+    float: left;
+}
+
+.project-item {
+    width: 30%;
+    cursor: pointer;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    overflow: hidden;
+}
+
+.project-item:hover img {
+    transform: scale(1.1);
+    transition: .5s ease;
+}
+
+
+.nomrgn {
+        margin-left: 4%;
+    }
+
+/*-----------------------project css close----------------------------------*/ 
+
+
+/*-----------------------form css start----------------------------------*/ 
+
+.form{
+    width: 100%;
+    float: left;
+    background: url(img/upper-footer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+.form-bg-overlay {
+    background: rgba(0,0,0,0.7);
+    padding-top: 55px;
+    padding-bottom: 124px;
+}
+
+
+.form-content{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+.form-content h3 {
+    font-size: 36px;
+    font-weight: 400;
+    margin: 8px 0;
+    color: white;
+}
+
+.form-content p {
+    color: #f6f6f694;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.input-form{
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+
+.form-control {
+    color: white;
+    background: transparent;
+    border: 1px solid #ffffff8c;
+    width: 67%;
+    padding: 13px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.input-items {
+    width: 70%;
+    margin: 12px  auto;
+    text-align: center;
+}
+
+.input-item-left{
+    width: 50%;
+}
+
+.input-item-right{
+    width: 50%;
+}
+
+.color{
+    color: #f6f6f694;
+    margin-left: 3px;
+}
+
+.input-btn {
+    color: white;
+    background: transparent;
+    border: 1px solid #2290D6;
+    padding: 8px 42px;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 500;
+    margin-left: 186px;
+}
+
+
+/*-----------------------form css start----------------------------------*/ 
+
+/*-----------------------footer section css start----------------------------------*/ 
+
+footer{
+    width: 100%;
+    float: left;
+    padding: 27px 0;
+}
+
+.footer-left {
+    width: 45%;
+    color: #0000003d;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 95px;
+}
+
+.footer-right{
+    width: 45%;
+}
+
+.footer-right ul{
+    text-align: right;
+}
+
+.footer-right ul li{
+    display: inline-block;
+}
+
+.footer-right ul li a {
+    color: white;
+    background: #15A4FA;
+    margin-left: 1px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.footer-right ul li a:hover{
+    color: #48BAFF;
+    transition: .5s;
+} 
+
+
+/*-----------------------footer section css close----------------------------------*/ 
